@@ -1,11 +1,20 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
-Upstream-Name: <pkg>
-Source: <path_to_download>
+Upstream-Name: getdns
+Source: http://getdnsapi.net/dist/getdns-0.1.1.tar.gz
 
 Files: *
-Copyright: © 20xx-20yy <upstream>
-License: <license>
+Copyright: © 2013, Verisign, Inc., NLnet Labs
+License: BSD-3-clause
 
 Files: debian/*
-Copyright: © 2014 maintainername <maintainer@e.mail>
-License: <license>
+Copyright: © 2014 Iain R Learmonth <irl@fsfe.org>
+License: BSD-3-clause
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the conditions of the
+ 3-clause BSD license are met.
+ .
+ On Debian systems, the full text of the 3-clause BSD license can be
+ found in the file
+ `/usr/share/common-licenses/BSD'.
