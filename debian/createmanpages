@@ -1,9 +1,0 @@
-#!/bin/sh
-MANDIR=debian/mans
-mkdir -p $MANDIR
-
-VERSION=`dpkg-parsechangelog | awk '/^Version:/ {print $2}' | sed -e 's/^[0-9]*://' -e 's/-.*//'`
-
-help2man --no-info --no-discard-stderr --help-option=" " \
-         --name='<optional description of the program>' \
-            --version-string="$VERSION" <programname> > $MANDIR/<programname>.1
