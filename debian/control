@@ -1,16 +1,21 @@
-Source: <pkg>
-Section: science
+Source: libgetdns-0.1.1
+Section: devel
 Priority: optional
-Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
-Uploaders: Andreas Tille <tille@debian.org>
+Maintainer: Iain R Learmonth <irl@fsfe.org>
 Build-Depends: debhelper (>= 9)
 Standards-Version: 3.9.5
-Vcs-Browser: http://anonscm.debian.org/viewvc/debian-med/trunk/packages/<pkg>/trunk/
-Vcs-Svn: svn://anonscm.debian.org/debian-med/trunk/packages/<pkg>/trunk/
-Homepage: <homepage>
+Vcs-Browser: https://github.com/irl/libgetdns-0.1.1
+Vcs-Svn: https://github.com/irl/libgetdns-0.1.1.git
+Homepage: http://getdnsapi.net/
 
-Package: <pkg>
+Package: libgetdns-0.1.1
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <short_description>
- <long_description>
+Description: getdns is a modern asynchronous DNS API
+ getdns is a modern asynchronous DNS API. It implements DNS entry points
+ from a design developed and vetted by application developers, in an API
+ specification edited by Paul Hoffman. With the development of this API,
+ we intend to offer application developers a modernized and flexible way
+ to access DNS security (DNSSEC) and other powerful new DNS features; a
+ particular hope is to inspire application developers towards innovative
+ security solutions in their applications. 
