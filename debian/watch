@@ -1,0 +1,22 @@
+version=3
+
+# Uncomment to examine a Webpage
+# <Webpage URL> <string match>
+#http://www.example.com/downloads.php #PACKAGE#-(.*)\.tar\.gz
+
+# Uncomment to examine a Webserver directory
+#http://www.example.com/pub/#PACKAGE#-(.*)\.tar\.gz
+
+# Uncommment to examine a FTP server
+#ftp://ftp.example.com/pub/#PACKAGE#-(.*)\.tar\.gz debian uupdate
+
+# Uncomment to find new files on sourceforge
+# http://sf.net/#PACKAGE#/#PACKAGE#-(\d[\d\.]+)\.(?:tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz)))
+
+# Uncomment to find new files on GooglePages
+# http://code.google.com/p/#PACKAGE#/downloads/list?can=1 \
+#  .*/#PACKAGE#-([-.\d]+)\.(?:tgz|tbz|txz|(?:tar\.(?:gz|bz2|xz))|zip)
+
+# if tweaking of source is needed
+# \
+# debian debian/get-orig-source

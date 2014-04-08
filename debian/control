@@ -1,0 +1,16 @@
+Source: <pkg>
+Section: science
+Priority: optional
+Maintainer: Debian Med Packaging Team <debian-med-packaging@lists.alioth.debian.org>
+Uploaders: Andreas Tille <tille@debian.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Vcs-Browser: http://anonscm.debian.org/viewvc/debian-med/trunk/packages/<pkg>/trunk/
+Vcs-Svn: svn://anonscm.debian.org/debian-med/trunk/packages/<pkg>/trunk/
+Homepage: <homepage>
+
+Package: <pkg>
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: <short_description>
+ <long_description>
