@@ -1,0 +1,13 @@
+language: c
+compiler:
+  - gcc
+  - clang
+before_script:
+  - sudo apt-get update
+  - sudo apt-get install libunbound-dev libldns-dev libidn11-dev check libevent-dev
+script:
+  - ./configure --with-libevent
+  - make
+  - sudo make install
+  - make test
+  - sudo make uninstall
